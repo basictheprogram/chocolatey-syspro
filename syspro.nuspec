@@ -18,7 +18,7 @@
     <projectUrl>https://www.syspro.com/product/erp-system/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/syspro.png</iconUrl>
     <copyright>2017 Real Time Enterprises (package), SYSPRO (software)</copyright>
-    <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <licenseUrl>https://us.syspro.com/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://us.syspro.com/company/customers/</docsUrl>
