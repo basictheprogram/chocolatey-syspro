@@ -12,7 +12,7 @@
     <licenseUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO/SYSPRO-v6.1/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>At what url are the software docs located?</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>SYSPRO ERP</tags>
