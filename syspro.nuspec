@@ -3,13 +3,13 @@
   <metadata>
     <id>syspro</id>
     <version>7.00</version>
-    <packageSourceUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO</packageSourceUrl>
+    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro</packageSourceUrl>
     <owners>Real Time Support</owners>
     <title>SYSPRO 7.00</title>
     <authors>SYSPRO, SYSPRO USA</authors>
-    <iconUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO/SYSPRO-v6.1/icons/syspro.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/icons/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
-    <licenseUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO/SYSPRO-v6.1/LICENSES.txt</licenseUrl>
+    <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>At what url are the software docs located?</docsUrl>
