@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>syspro</id>
+    <id>syspro7-client</id>
     <version>7.00</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro</packageSourceUrl>
     <owners>Real Time Support</owners>
-    <title>SYSPRO 7</title>
+    <title>SYSPRO 7 Client</title>
     <authors>SYSPRO, SYSPRO USA</authors>
     <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/icons/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
