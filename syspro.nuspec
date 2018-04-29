@@ -5,14 +5,14 @@
     <version>7.00</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro</packageSourceUrl>
     <owners>Real Time Support</owners>
-    <title>SYSPRO 7.00</title>
+    <title>SYSPRO 7</title>
     <authors>SYSPRO, SYSPRO USA</authors>
     <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/icons/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
     <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>At what url are the software docs located?</docsUrl>
+    <!--<docsUrl></docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>SYSPRO ERP</tags>
