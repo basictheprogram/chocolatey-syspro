@@ -11,19 +11,19 @@ $packageArgs = @{
   unzipLocation  = $toolsDir
   checksum       = $checksum
   checksumType   = 'sha256' 
+  softwareName   = 'SYSPRO 7 Client'
+
 }
 
 # https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
 #
 Install-ChocolateyZipPackage @packageArgs 
 
-# https://forum.fortinet.com/tm.aspx?m=150054
-
 $installArgs = @{
   packageName    = $env:ChocolateyPackageName
-  file           = Join-Path $toolsDir 'FortiClient.msi'
+  file           = Join-Path $toolsDir $pkg
   fileType       = 'msi'
-  silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" 
+  silentArgs     = "/S /v/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" 
   validExitCodes = @(0, 3010, 1641)
 }
 
