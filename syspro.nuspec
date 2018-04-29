@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro</id>
-    <version>6.1</version>
+    <version>7.00</version>
     <packageSourceUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO</packageSourceUrl>
     <owners>Real Time Support</owners>
-    <title>SYSPRO 6.1 SP1</title>
+    <title>SYSPRO 7.00</title>
     <authors>SYSPRO, SYSPRO USA</authors>
     <iconUrl>https://gitlab.x.real-time.com/chocolatey/SYSPRO/SYSPRO-v6.1/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
