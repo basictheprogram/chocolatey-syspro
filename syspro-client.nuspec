@@ -12,7 +12,7 @@
     <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl></docsUrl>-->
+    <docsUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/docs</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>SYSPRO7 Client ERP</tags>
@@ -28,10 +28,24 @@
     <!-- Specifying dependencies and version ranges? 
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
-      <!-- <dependency id="syspro-runtime" version="7.0.0" /> -->
+      <!-- .NET Framework 4.0 -->
       <!-- <dependency id="dotnet4.0" /> -->
+
+      <!-- .NET Framework 4.5 -->
       <!-- <dependency id="dotnet4.5" /> -->
+
+      <!-- Java Runtime -->
+      <!-- <dependency id="javaruntime" /> -->
+
+      <!-- MicrosoftSQLServer2008R2NativeClient -->      
       <dependency id="sql2008r2.nativeclient" />
+
+      <!-- MicrosoftSQLServer2008R2NativeClient 
+           https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
+      <!-- <dependency id="" /> -->
+      
+      <!-- SYSPRORuntimeexecutable -->
+      <!-- <dependency id="syspro-runtime" version="7.0.0" /> -->
 
     </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
