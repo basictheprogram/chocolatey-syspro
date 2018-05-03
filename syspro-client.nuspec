@@ -11,10 +11,10 @@
     <copyright>Copyright © 1994-2012</copyright>
     <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <projectSourceUrl>https://us.syspro.com/</projectSourceUrl>
     <docsUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/docs</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <mailingListUrl>https://us.syspro.com/erp-services/erp-support/</mailingListUrl>
+    <bugTrackerUrl>https://us.syspro.com/erp-services/erp-support/</bugTrackerUrl>
     <tags>SYSPRO7 Client ERP</tags>
     <summary>SYSPRO is an industry-built Enterprise Resource Planning (ERP) solution</summary>
     <description>
@@ -23,7 +23,7 @@
       streamlined business processes, improved productivity, and real-time data analysis for comprehensive reporting and decision-making. 
       SYSPRO is highly scalable and can be deployed either in the cloud, on-premise, or accessed via any mobile device. 
     </description>
-    <releaseNotes>http://bit.ly/2judUh6</releaseNotes>
+    <releaseNotes>https://www.syspro.com/brochure/syspro-7-success-motion/</releaseNotes>
 
     <!-- Specifying dependencies and version ranges? 
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
@@ -45,7 +45,7 @@
       <!-- <dependency id="interopformsredist" /> -->
       
       <!-- SYSPRORuntimeexecutable -->
-      <dependency id="syspro-runtime" version="7.0.0" />
+      <dependency id="syspro-runtime" version="7.0.*" />
 
     </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
