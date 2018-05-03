@@ -40,12 +40,12 @@
       <!-- MicrosoftSQLServer2008R2NativeClient -->      
       <dependency id="sql2008r2.nativeclient" />
 
-      <!-- MicrosoftSQLServer2008R2NativeClient 
+      <!-- MicrosoftInteropFormsRedistributable 
            https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
-      <!-- <dependency id="" /> -->
+      <!-- <dependency id="interopformsredist" /> -->
       
       <!-- SYSPRORuntimeexecutable -->
-      <!-- <dependency id="syspro-runtime" version="7.0.0" /> -->
+      <dependency id="syspro-runtime" version="7.0.0" />
 
     </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
