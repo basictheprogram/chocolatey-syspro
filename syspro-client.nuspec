@@ -3,16 +3,16 @@
   <metadata>
     <id>syspro7-client</id>
     <version>7.00</version>
-    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro</packageSourceUrl>
+    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
     <owners>Real Time Support</owners>
     <title>SYSPRO 7 Client</title>
     <authors>SYSPRO, SYSPRO USA</authors>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/icons/icons/syspro.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/icons/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
-    <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/LICENSES.txt</licenseUrl>
+    <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://us.syspro.com/</projectSourceUrl>
-    <docsUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro/master/docs</docsUrl>
+    <docsUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/docs</docsUrl>
     <mailingListUrl>https://us.syspro.com/erp-services/erp-support/</mailingListUrl>
     <bugTrackerUrl>https://us.syspro.com/erp-services/erp-support/</bugTrackerUrl>
     <tags>SYSPRO7 Client ERP</tags>
