@@ -45,7 +45,7 @@
       <!-- <dependency id="interopformsredist" /> -->
       
       <!-- SYSPRORuntimeexecutable -->
-      <dependency id="syspro-runtime" version="__7.0.0__" />
+      <dependency id="syspro7-runtime" version="7.0.0" />
 
     </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
