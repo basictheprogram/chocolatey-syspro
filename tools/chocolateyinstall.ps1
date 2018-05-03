@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation   = Join-Path $toolsDir 'SYSPRO7Client.exe'
+$fileLocation   = Join-Path $toolsDir 'SYSPRO7Client.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
