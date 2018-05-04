@@ -29,20 +29,20 @@
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
       <!-- .NET Framework 4.0 -->
-      <!-- <dependency id="dotnet4.0" /> -->
+      <dependency id="dotnet4.0" />
 
       <!-- .NET Framework 4.5 -->
-      <!-- <dependency id="dotnet4.5" /> -->
+      <dependency id="dotnet4.5" />
 
       <!-- Java Runtime -->
-      <!-- <dependency id="javaruntime" /> -->
+      <dependency id="javaruntime" />
 
       <!-- MicrosoftSQLServer2008R2NativeClient -->      
       <dependency id="sql2008r2.nativeclient" />
 
       <!-- MicrosoftInteropFormsRedistributable 
            https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
-      <!-- <dependency id="interopformsredist" /> -->
+      <dependency id="interopformsredist" />
       
       <!-- SYSPRORuntimeexecutable -->
       <dependency id="syspro7-runtime" version="7.0.0" />
