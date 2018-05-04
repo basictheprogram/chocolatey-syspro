@@ -7,7 +7,7 @@
     <owners>Real Time Support</owners>
     <title>SYSPRO 7 Client</title>
     <authors>SYSPRO, SYSPRO USA</authors>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/blob/master/icons/syspro.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
     <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/LICENSES.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
