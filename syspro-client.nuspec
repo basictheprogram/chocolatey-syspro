@@ -4,6 +4,7 @@
     <id>syspro7-client</id>
     <version>7.00.0016</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
+    <projectUrl>https://github.com/basictheprogram/chocolatey-syspro-client</projectUrl>
     <owners>Real Time Support</owners>
     <title>SYSPRO 7 Client</title>
     <authors>SYSPRO, SYSPRO USA</authors>
