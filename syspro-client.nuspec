@@ -47,6 +47,8 @@
       <!-- SYSPRORuntimeexecutable -->
       <dependency id="syspro7-runtime" version="7.0.0" />
 
+      <!-- SYSPROReportingComponentsCR2013 -->
+      <dependency id="syspro7-reporting-components" version="7.0.0" />
     </dependencies>
   </metadata>
   <files>
