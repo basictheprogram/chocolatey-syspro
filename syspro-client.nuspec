@@ -29,6 +29,9 @@
     <!-- Specifying dependencies and version ranges? 
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
+      <!-- .NET Framework 3.5 -->
+      <dependency id="dotnet3.5" />
+
       <!-- .NET Framework 4.0 -->
       <dependency id="dotnet4.0" />
 
