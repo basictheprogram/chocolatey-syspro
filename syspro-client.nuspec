@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro7-client</id>
-    <version>7.00.0016</version>
+    <version>7.00.0016.2021061000</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
     <projectUrl>https://github.com/basictheprogram/chocolatey-syspro-client</projectUrl>
     <owners>basictheprogram</owners>
@@ -59,4 +59,3 @@
     <file src="tools\**" target="tools" />
   </files>
 </package>
-
