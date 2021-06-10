@@ -2,35 +2,38 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro7-client</id>
-    <version>7.00.0016</version>
+    <version>7.00.0016.2021061000</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
     <projectUrl>https://github.com/basictheprogram/chocolatey-syspro-client</projectUrl>
-    <owners>Real Time Support</owners>
+    <owners>basictheprogram</owners>
     <title>SYSPRO 7 Client</title>
     <authors>SYSPRO, SYSPRO USA</authors>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/icons/syspro.png</iconUrl>
+    <iconUrl>https://basictheprogram.github.io/chocolatey-syspro-client/icons/syspro.png</iconUrl>
     <copyright>Copyright © 1994-2012</copyright>
-    <licenseUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/LICENSES.txt</licenseUrl>
+    <licenseUrl>https://www.crystalreports.com/faq/#lp-pom-block-1000</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://us.syspro.com/</projectSourceUrl>
-    <docsUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-syspro-client/master/docs</docsUrl>
+    <docsUrl>https://basictheprogram.github.io/chocolatey-syspro-client/docs</docsUrl>
     <mailingListUrl>https://us.syspro.com/erp-services/erp-support/</mailingListUrl>
     <bugTrackerUrl>https://us.syspro.com/erp-services/erp-support/</bugTrackerUrl>
     <tags>SYSPRO7 Client ERP</tags>
     <summary>SYSPRO is an industry-built Enterprise Resource Planning (ERP) solution</summary>
     <description>
-      SYSPRO is an industry-built Enterprise Resource Planning (ERP) solution designed to simplify business complexity 
-      for manufacturers and distributors worldwide. SYSPRO provides an end-to-end, business solution for optimized cost control, 
-      streamlined business processes, improved productivity, and real-time data analysis for comprehensive reporting and decision-making. 
-      SYSPRO is highly scalable and can be deployed either in the cloud, on-premise, or accessed via any mobile device. 
+      SYSPRO is an industry-built Enterprise Resource Planning (ERP) solution designed to simplify business complexity
+      for manufacturers and distributors worldwide. SYSPRO provides an end-to-end, business solution for optimized cost control,
+      streamlined business processes, improved productivity, and real-time data analysis for comprehensive reporting and decision-making.
+      SYSPRO is highly scalable and can be deployed either in the cloud, on-premise, or accessed via any mobile device.
     </description>
     <releaseNotes>https://www.syspro.com/brochure/syspro-7-success-motion/</releaseNotes>
 
-    <!-- Specifying dependencies and version ranges? 
+    <!-- Specifying dependencies and version ranges?
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
+      <!-- .NET Framework 3.5 -->
+      <!-- <dependency id="dotnet3.5" />-->
+
       <!-- .NET Framework 4.0 -->
-      <dependency id="dotnet4.0" />
+      <!-- <dependency id="dotnet4.0" />-->
 
       <!-- .NET Framework 4.5 -->
       <dependency id="dotnet4.5" />
@@ -38,13 +41,13 @@
       <!-- Java Runtime -->
       <dependency id="javaruntime" />
 
-      <!-- MicrosoftSQLServer2008R2NativeClient -->      
+      <!-- MicrosoftSQLServer2008R2NativeClient -->
       <dependency id="sql2008r2.nativeclient" />
 
-      <!-- MicrosoftInteropFormsRedistributable 
+      <!-- MicrosoftInteropFormsRedistributable
            https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
-      <dependency id="interopformsredist" />
-      
+      <!-- <dependency id="interopformsredist" /> -->
+
       <!-- SYSPRORuntimeexecutable -->
       <dependency id="syspro7-runtime" version="7.0.0" />
 
@@ -56,4 +59,3 @@
     <file src="tools\**" target="tools" />
   </files>
 </package>
-
