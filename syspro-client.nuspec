@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro7-client</id>
-    <version>7.00.0016.2021061000</version>
+    <version>7.00.0016.2021061800</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
     <projectUrl>https://github.com/basictheprogram/chocolatey-syspro-client</projectUrl>
     <owners>basictheprogram</owners>
@@ -30,7 +30,7 @@
          https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
       <!-- .NET Framework 3.5 -->
-      <!-- <dependency id="dotnet3.5" />-->
+      <dependency id="dotnet3.5" />
 
       <!-- .NET Framework 4.0 -->
       <!-- <dependency id="dotnet4.0" />-->
@@ -39,14 +39,14 @@
       <dependency id="dotnet4.5" />
 
       <!-- Java Runtime -->
-      <dependency id="javaruntime" />
+      <!-- <dependency id="javaruntime" /> -->
 
       <!-- MicrosoftSQLServer2008R2NativeClient -->
       <dependency id="sql2008r2.nativeclient" />
 
       <!-- MicrosoftInteropFormsRedistributable
            https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
-      <!-- <dependency id="interopformsredist" /> -->
+      <dependency id="interopformsredist" />
 
       <!-- SYSPRORuntimeexecutable -->
       <dependency id="syspro7-runtime" version="7.0.0" />
