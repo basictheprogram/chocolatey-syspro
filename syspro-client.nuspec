@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>syspro7-client</id>
-    <version>7.00.0016.2021061800</version>
+    <version>7.00.0016.2021062600</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-syspro-client</packageSourceUrl>
     <projectUrl>https://github.com/basictheprogram/chocolatey-syspro-client</projectUrl>
     <owners>basictheprogram</owners>
@@ -42,7 +42,8 @@
       <!-- <dependency id="javaruntime" /> -->
 
       <!-- MicrosoftSQLServer2008R2NativeClient -->
-      <dependency id="sql2008r2.nativeclient" />
+      <!-- <dependency id="sql2008r2.nativeclient" /> -->
+      <dependency id="sql2012.nativeclient" />
 
       <!-- MicrosoftInteropFormsRedistributable
            https://www.microsoft.com/en-us/download/details.aspx?id=3264> -->
